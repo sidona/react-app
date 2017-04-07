@@ -10,14 +10,14 @@
  */
 
 import React from 'react';
-import Navigation from '../../components/Navigation'
+import NavigationContainer from '../NavigationContainer'
 
 
 export default class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
   render() {
     return (
-     <Navigation/>
+     <NavigationContainer/>
     );
   }
 }
